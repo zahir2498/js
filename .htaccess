@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protected Site"
+AuthUserFile https://cdn.jsdelivr.net/gh/zahir2498/js/.htpasswd
+require valid-user
