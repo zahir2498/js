@@ -1,0 +1,241 @@
+
+.mvp-settings-holder,
+.mvp-share-data,
+.mvp-info-data,
+.mvp-context-menu,
+.mvp-volume-seekbar,
+.mvp-pwd-data,
+.mvp-resume-data,
+.mvp-upnext-inner,
+.mvp-chapter-title,
+.mvp-chapter-menu-wrap,
+.mvp-ad-skip-btn,
+.mvp-ad-controls .mvp-contr-btn,
+.mvp-nav-forward,
+.mvp-embed-data,
+.mvp-redirect-login-data,
+.mvp-nav-backward,
+.mvp-minimize-close{
+	background:rgba(0,0,0,0.5);
+}
+.mvp-playlist-selector-holder,
+.mvp-transcript-holder,
+.mvp-chapters-holder{
+	background:#282828;
+}
+.mvp-contr-btn{
+	width:40px;
+	height:100%;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+.mvp-contr-btn svg{
+	color:#ddd;
+	height: 14px;
+}
+.mvp-contr-btn svg:hover{
+	color:#fff !important;
+}
+
+.mvp-previous-toggle{
+    position: absolute; 
+    top: 50%; 
+    left: 12px; 
+    -webkit-transform: translateY(-50%); 
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); 
+    height: 50px;
+}
+.mvp-next-toggle{
+    position: absolute; 
+    top: 50%; 
+    right: 12px; 
+    -webkit-transform: translateY(-50%); 
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); 
+    height: 50px;
+}
+.mvp-previous-toggle svg,
+.mvp-next-toggle svg{
+    height: 18px;
+}
+
+.mvp-player-controls-top{
+	position:absolute;
+	top:15px;
+	right:15px;
+	height: 20px;
+	z-index: 1;
+}
+
+.mvp-player-controls-bottom-wrap{
+	position: absolute;
+    height: 40px;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+}
+.mvp-player-controls-bottom{
+	display: flex;
+	height: 100%;
+}
+.mvp-player-controls-bottom-left{
+}
+.mvp-player-controls-bottom-right{
+	position: relative;
+    margin-left: auto;
+}
+
+.mvp-media-time-current,
+.mvp-media-time-total{
+	position:relative;
+	top: 50%;
+	left:0px;
+	text-align: center;
+	float:left;
+	margin:0!important;
+	padding: 0!important;
+	font-size:11px!important;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color:#eee;
+}
+.mvp-media-time-current,
+.mvp-media-time-total{
+	padding-left: 5px!important;
+	padding-right: 5px!important;
+}
+
+.mvp-seekbar-wrap{
+    position:relative;
+    margin: 0 10px;
+    height: 100%;
+    overflow: hidden;
+}
+.mvp-seekbar{
+	overflow: hidden;
+    height: 100%;
+    cursor: pointer;
+    touch-action: none;
+    flex: 1;
+}
+.mvp-progress-bg{
+	position:relative;
+	width:100%;
+	top:20px;
+	height:1px;
+}
+.mvp-progress-bg{
+	background:#bbb;
+}
+.mvp-load-level{
+	position:absolute;
+	top:0;
+	height:100%;
+}
+.mvp-load-level{
+	background:#ccc;
+}
+.mvp-progress-level{
+	position:absolute;
+	top:0;
+	height:100%;
+	transition: width 0.2s linear;
+}
+.mvp-progress-level{
+	background:#fff;
+}
+
+.mvp-volume-toggle{
+	position: relative;
+}
+.mvp-volume-seekbar{
+	position:absolute;
+	top:-80px;
+	left:0;
+	width:30px;
+	height:80px;
+	display:none;
+	cursor: pointer;
+	touch-action: none;
+}
+.mvp-volume-wrapper:hover .mvp-volume-seekbar{
+	display: block;
+}
+.mvp-volume-bg{
+	position:absolute;
+	width:1px;
+	height:60px;
+	left:14px;
+	bottom:10px;
+}
+.mvp-volume-bg{
+	background:#bbb;
+}
+.mvp-volume-level{
+	position:absolute;
+	width:100%;
+	left:0;
+	bottom:0;
+}
+.mvp-volume-level{
+	background:#fff;
+	transition: width 0.2s ease-out, height 0.2s ease-out;
+}
+
+.mvp-settings-holder{
+    margin-bottom: 0;
+}
+.mvp-menu-item{
+    font-size: 12px;
+}
+.mvp-settings-menu-item-value{
+	color: #888;
+}
+.mvp-menu-header{
+	background-color: #fff;
+	color: #555;
+}
+.mvp-menu-item{
+	color: #eee;
+}
+.mvp-menu-active,
+.mvp-menu-item:hover{
+	background: #fff;
+	color: #555;
+}
+
+.mvp-big-play svg{
+	color:#ddd;
+}
+.mvp-big-play:hover svg{
+	color:#fff !important;
+}
+
+
+.mvp-pwd-data {
+    background: #111;
+    border: 1px solid #222;
+}
+input.mvp-pwd-field{
+	border: 1px solid #333!important;
+}
+
+
+.mvp-tooltip{
+	background:#fff;
+	color:#333!important;
+}
+
+.mvp-player-controls-gradient {
+    pointer-events: none;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.5) 100%);
+}
